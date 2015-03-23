@@ -1,0 +1,16 @@
+div{ font-family:courier;
+    text-decoration:none;
+    border-radius: 5px;
+    height: 100px;
+    width: 300px;
+    background-color: grey;
+    margin: 5px;
+}
+
+#header{position: auto;
+    z-index: 1;}
+    
+#footer{ clear:both;}
+
+.left{float: left;}
+.right{float: right;}
