@@ -1,16 +1,37 @@
-div{ font-family:courier;
-    text-decoration:none;
-    border-radius: 5px;
-    height: 100px;
-    width: 300px;
-    background-color: grey;
-    margin: 5px;
-}
-
-#header{position: auto;
-    z-index: 1;}
+body{ background-image: url(wood.jpg);
+	font-family: serif;
+	color: white;
+	font-size: 20px;
+	}
     
-#footer{ clear:both;}
+#header{text-align: center;
+		padding = 250px;}
+#header h1{text-decoration: underline; font-size:50px;}
 
-.left{float: left;}
-.right{float: right;}
+
+#time{font-size: 15px;}
+
+a{color: white;
+	font-size: 25px;
+	text-decoration: underline;}
+a:hover{opacity:.8;}
+
+.alignright{float:right;}
+
+.title{ text-align: center; 
+		text-decoration: underline;
+		font-size: 40px;}
+		
+.subsection h3{display:inline; font-size:30px;} 
+.subsection div{padding-left: 20px;}
+
+
+.section{width = 800px; 
+		padding-left: 20%;
+		padding-right:20%;
+		padding-top: 20px;
+		padding-bottom: 20px;}
+		
+
+
+
