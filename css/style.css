@@ -12,3 +12,9 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+#index-banner{
+  background-image: url("../image/all_might.jpg");
+  background-size: cover;
+  opacity: .75;
+}
