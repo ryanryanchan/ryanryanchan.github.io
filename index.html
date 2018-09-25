@@ -83,6 +83,7 @@
   <div class="row container">
     <a name="portfolio"></a>
     <br><br>
+
     <div class="divider"></div>
     <h1 class="header center orange-text">Portfolio</h1>
     <br><br>
@@ -98,6 +99,36 @@
         <div class="card-reveal">
           <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
           <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        </div>
+      </div>
+    </div>
+
+	<div class="col s12 m12 l6">
+      <div class="card medium blue-grey darken-1">
+        <div class="card-image">
+          <img class="activator" src="image/background.jpg">
+          
+        </div>
+        <div class="card-content white-text">
+          <span class="card-title activator">ASL Hand Digit Recognition</span>
+          <p>Spring 2018</p>
+          <a href="https://github.com/ryanryanchan/CS175_FinalReport">Final Project Submission</a>
+        </div>
+        <div class="card-reveal">
+        	<span class="card-title grey-text text-darken-4">
+          		ASL Hand Digit Recognition
+          		<i class="material-icons right">close</i>
+          	</span>
+         	<p>
+          		Compared the speed, accuracy, and space complexity of two machine learners (SqueezeNet vs Convolutional Neural Network) on classifying sets of hand signs. 
+      		</p>
+      		<h5>Findings:</h5>
+      		<blockquote>
+      			The Convolutional Network we created worked very well, and we can see why this is a popular choice for image recognition and classification problems. We were surprised with how easily it reached 100% validation accuracy. It reached 100% well within 20 epochs, with a runtime of ~7.5 seconds.This makes us a little suspicious of our dataset more than anything, but it could also be a testament to the strength of convolutional neural networks. 
+      			<br><br>
+      			Our SqueezeNet, on the other hand, was able to reach an 89% accuracy. Because SqueezeNet architectures need a smaller learning rate, it took 300 epochs and ~17 minutes to reach that accuracy. The network works well, especially for a network designed to be so compact that it can be run on phones. It can score decently with a much smaller network, given enough epochs of training. However, while SqueezeNets have proven to be a viable lightweight option, we would still say that SqueezeNets are easily outclassed by Convolutional Neural Networks in terms of sheer performance.
+      		</blockquote>
+      		<a href="https://www.kaggle.com/ardamavi/sign-language-digits-dataset">Kaggle Dataset</a>
         </div>
       </div>
     </div>
@@ -146,7 +177,8 @@
           	Rainfall Predictor
           	<i class="material-icons right">close</i>
           </span>
-          <p>Used sklearn to create an ensemble of machine learners to give rainfall predictions given a large set of data points on Kaggle. Ranked top 30% in class.
+          <p>
+          	Used sklearn to create an ensemble of machine learners to give rainfall predictions given a large set of data points on Kaggle. Achieved 78.78% Accuracy score, with the highest in class being 81.15%.
           </p> 
           <p>Learners used:</p>
           <ul class="browser-default">
@@ -157,7 +189,7 @@
           	<li>Bayes</li>
           </ul>
 
-          <a href="https://www.Kaggle.com">Kaggle.com</a>
+          <a href="https://www.kaggle.com/c/uci-cs178-w18">Competition Page</a>
         </div>
       </div>
     </div>
